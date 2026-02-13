@@ -1,26 +1,26 @@
 class Mail < Formula
   desc "Email CLI for Gmail and Fastmail"
   homepage "https://github.com/serhiitroinin/luff"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.1/mail-darwin-arm64.tar.gz"
-      sha256 "029508c42b607a4ed7ad83ef1b8e236dd30de1ba861a94b00879dcc7fe8e23fa"
+      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.2/mail-darwin-arm64.tar.gz"
+      sha256 "22edceaba551a23a5665c7d322a3b96b207584f9b71a93f6884f2f88c9d6bfa3"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.1/mail-darwin-x64.tar.gz"
-      sha256 "327afadfb5c433dc5cbdf6b5bcfc236323fa8d009c8073c5e0d8346232d6c33e"
+      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.2/mail-darwin-x64.tar.gz"
+      sha256 "61f9b48c9192f0c18ea552b48a32a79f3b83ff2d2b8474410d5bdd53e62b8a74"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.1/mail-linux-arm64.tar.gz"
-      sha256 "e0e441e51f69d886a4196475387a254e51e2eda779bb4ea73b9b16b0a329081d"
+      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.2/mail-linux-arm64.tar.gz"
+      sha256 "d06ce922053a3a0db3a85d82e08e3f5d89cf6489ffb97f06c4580b5a529a7891"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.1/mail-linux-x64.tar.gz"
-      sha256 "ae4166159aa0882155fb01be868aa9ba891d5e9e3b0e10a277fa57831e9f70f4"
+      url "https://github.com/serhiitroinin/luff/releases/download/mail-v0.2.2/mail-linux-x64.tar.gz"
+      sha256 "0f6e096c775b5ce7d49d430f64a0c694df55dd9f391f7db39c6d6d3ca6020fe6"
     end
   end
 
