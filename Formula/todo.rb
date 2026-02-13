@@ -1,26 +1,26 @@
 class Todo < Formula
   desc "Task management CLI with provider support"
   homepage "https://github.com/serhiitroinin/luff"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.0/todo-darwin-arm64.tar.gz"
-      sha256 "0696f0de3e17d96815b661c7e1065bb3e225424c737e8871bb7b1be803ae41c6"
+      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.1/todo-darwin-arm64.tar.gz"
+      sha256 "d05955806b2986c60b6fc5826d9952cdc93639f23e6eef8bda2d82acbb4441ac"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.0/todo-darwin-x64.tar.gz"
-      sha256 "a7a9b59708a3272cd27bbbd7217517398a0e4aece32cbee320ad6c5d5f21a62b"
+      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.1/todo-darwin-x64.tar.gz"
+      sha256 "dc2351614c39c102bd3ff790ad175e3842c041a9321f2cd03111ffa757d04f5b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.0/todo-linux-arm64.tar.gz"
-      sha256 "83ad657462d3291691684a4e46ee8495b8e0cf9f2e5d5a03be030e7bf48bf84e"
+      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.1/todo-linux-arm64.tar.gz"
+      sha256 "514d55ea6863ea43e859693e5637336565160d3eadf9882825b0dbc47f71ca47"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.0/todo-linux-x64.tar.gz"
-      sha256 "5318796fc1d09c624d1044d7d9fd7a06864ed90202dbede2713687ff7fb362c1"
+      url "https://github.com/serhiitroinin/luff/releases/download/todo-v0.1.1/todo-linux-x64.tar.gz"
+      sha256 "2720b73a33b5171fdd82c2de8736ff11a5dc1551bbc8b44ce73f5dbdc2105a58"
     end
   end
 
