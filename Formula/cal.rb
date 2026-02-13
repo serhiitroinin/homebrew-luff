@@ -1,26 +1,26 @@
 class Cal < Formula
   desc "Google Calendar CLI"
   homepage "https://github.com/serhiitroinin/luff"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.0/cal-darwin-arm64.tar.gz"
-      sha256 "a4ae56c47d6e7fac1d7ee615c4ad21451c3860538647fd3ff5eb82909c4f740a"
+      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.1/cal-darwin-arm64.tar.gz"
+      sha256 "84e504d7108ccfc0a1a6ff57e47e098e43f79ab30509c2dd4d5fedaceffef787"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.0/cal-darwin-x64.tar.gz"
-      sha256 "bcc94d87b88be74ab772057d609d984c0d8325db28a651b91b16a9de8674c006"
+      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.1/cal-darwin-x64.tar.gz"
+      sha256 "97b6d9b7fdc91997cca0131dd56bbf5404f3bda3587ae45a8a28751849409407"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.0/cal-linux-arm64.tar.gz"
-      sha256 "39a397f66937c2e3cea540f029748a9434a4f92655a071214b20489dc29378bd"
+      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.1/cal-linux-arm64.tar.gz"
+      sha256 "b5e9f90ff865ae939dd715bcda953f365200e54e0d714b8065fbdfeded507915"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.0/cal-linux-x64.tar.gz"
-      sha256 "50d99b8b877cdcd53d70e73f66941066dc3acc6370a1a396750d664b6741321e"
+      url "https://github.com/serhiitroinin/luff/releases/download/cal-v0.1.1/cal-linux-x64.tar.gz"
+      sha256 "36e8b94d546ce9c8ffc2be14a72a3dcb8515ba17727b2fdacb4ef222712ae1cc"
     end
   end
 
