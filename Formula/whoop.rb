@@ -1,26 +1,26 @@
 class Whoop < Formula
   desc "WHOOP health data CLI"
   homepage "https://github.com/serhiitroinin/luff"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.0/whoop-darwin-arm64.tar.gz"
-      sha256 "41f8c46c6d26b80bd38bbcc29f8fcbea0faae51030fb3f74d15924349aba344f"
+      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.1/whoop-darwin-arm64.tar.gz"
+      sha256 "492a5770cb04ae066e96307101927d58aaeddafce8ee1b937a892802d755efa9"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.0/whoop-darwin-x64.tar.gz"
-      sha256 "39e9e7ae45fb7ce855222ee391fc88a81c7d81be427e1675e1928a396236c35e"
+      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.1/whoop-darwin-x64.tar.gz"
+      sha256 "dfb7d69eb96125de87d54d85d62798967534c87c53b333797d10c72987d12062"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.0/whoop-linux-arm64.tar.gz"
-      sha256 "6d2d71d21f1890c4c3dbf20ec09ac38903cf6ec36fa6c2ae43d47190cd4733d8"
+      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.1/whoop-linux-arm64.tar.gz"
+      sha256 "89530e4cd621493824f6cca7514e6da803daeb5b5dc4bc50524463a83554ca03"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.0/whoop-linux-x64.tar.gz"
-      sha256 "c65380a589cfc836f5f5b0c67cdf1a6cdbe22129eb7d9dfa76e2acc60d226416"
+      url "https://github.com/serhiitroinin/luff/releases/download/whoop-v0.2.1/whoop-linux-x64.tar.gz"
+      sha256 "48d9d058a0f116e3a7fc868eded9d69ae85099407d0100e6715bfe6c095951a8"
     end
   end
 
