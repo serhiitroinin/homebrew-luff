@@ -1,26 +1,26 @@
 class Garmin < Formula
   desc "Garmin Connect health data CLI"
   homepage "https://github.com/serhiitroinin/luff"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.0/garmin-darwin-arm64.tar.gz"
-      sha256 "55e815871c3984ced93aede7b79cf43c88bcf29e5b75ea739467ef89e84f8550"
+      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.1/garmin-darwin-arm64.tar.gz"
+      sha256 "71bf9456a0a1590105ea5fbce20bcd6b8bbdd868d0278a2d44f8421dbb384654"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.0/garmin-darwin-x64.tar.gz"
-      sha256 "b90c94b7f65194c816580fa9bfc12b49d5fb9c70b796d49406a1b4a2217d7575"
+      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.1/garmin-darwin-x64.tar.gz"
+      sha256 "d887e809c28cd11820097c92903edb59d5256f0bedaa7516c5bfb47c3d3c6dcf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.0/garmin-linux-arm64.tar.gz"
-      sha256 "41543fc71e353bd3951de3983ff0ee32a76e8fec6899c6fd12e025f84615f569"
+      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.1/garmin-linux-arm64.tar.gz"
+      sha256 "8e6fcca41e972dfc04ef14be5ce9b4cb93d622858fac970d7f9466bfdba07adf"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.0/garmin-linux-x64.tar.gz"
-      sha256 "614e0b9c16c2760c47603086a561ac8d9a747810565cafa6fe346e5f097234e8"
+      url "https://github.com/serhiitroinin/luff/releases/download/garmin-v0.2.1/garmin-linux-x64.tar.gz"
+      sha256 "642f3f0f7eeaf06baa5fdb2036b5d97694b69409f82fef183a1ccd28071d26d4"
     end
   end
 
