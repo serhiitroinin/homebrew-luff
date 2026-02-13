@@ -1,26 +1,26 @@
 class Libre < Formula
   desc "FreeStyle Libre 3 CGM data CLI via LibreLinkUp"
   homepage "https://github.com/serhiitroinin/luff"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.0/libre-darwin-arm64.tar.gz"
-      sha256 "2b38da1757ded11f065ffd0826e7b692694ef33161ecb48d2bca366904c079b5"
+      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.1/libre-darwin-arm64.tar.gz"
+      sha256 "397f840693dd89f3b4e54d249075bb1e1c95dbabda06c205fa7a994d5aceb3f9"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.0/libre-darwin-x64.tar.gz"
-      sha256 "6c8e5e636275a937b84bb10cba73ec8792d71d39afdf85a5f9e5ca5ef42f63ef"
+      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.1/libre-darwin-x64.tar.gz"
+      sha256 "ad542b3886ed94ea888f8ffcd3f586077a34c940475851a59b84e43c22fab0de"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.0/libre-linux-arm64.tar.gz"
-      sha256 "7d3b830228829f2e2ad1ae5f3212eb3b9f64f6085dbe7a68310fe04d2f87e668"
+      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.1/libre-linux-arm64.tar.gz"
+      sha256 "983915438229900148295f242b443f095f2bcf3142128fc98692035b08f25232"
     else
-      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.0/libre-linux-x64.tar.gz"
-      sha256 "c175cd1d085c23a4d90d551b61ab8d1bb13ec3317e2f92c39993a9e1ca21d9bd"
+      url "https://github.com/serhiitroinin/luff/releases/download/libre-v0.1.1/libre-linux-x64.tar.gz"
+      sha256 "46806a109c613f9eb1aa1ba21b8c172a9c9e5a880f43b7f397fa7f1a0067fcd8"
     end
   end
 
